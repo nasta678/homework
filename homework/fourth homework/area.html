@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cormorant+Infant:wght@300&family=Dancing+Script&family=Montserrat&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <title>Area</title>
+</head>
+<body style="font-family: 'Montserrat', sans-serif; background-color: bisque; margin: 30px 40px; font-size: 19px">
+    <h1>Тег AREA: Значение, применение и пример.</h1>
+    <p>
+    Тег &#8249;area&#8250; определяет интерактивную область в изображении-карте (элемент &#8249;map&#8250;), т.е. при клике на определённую область изображения происходят определённые действия, например, открывается отдельная страница с описанием данного участка изображения.
+  </p>
+    <p>
+    В атрибутах тега &#8249;area&#8250;  указывают как координаты области (атрибут coords), так и тип необходимой нам фигуры (атрибут shape).
+    </p>
+    <table border=1 style="border-collapse: collapse">
+        <tr>
+        <th>Значение атрибута</th> 
+        <th>Определение</th> 
+        </tr> 
+        <tr> 
+        <td>default</td>
+        <td>Весь регион.</td> 
+        </tr>
+        <tr> 
+        <td>rect</td>
+        <td>Прямоугольная область (<b>x1,y1,x2,y2</b>).</td> 
+        </tr>
+        <tr> 
+        <td>circle</td>
+        <td>Круглая область (<b>x,y,r- радиус</b>).</td> 
+        </tr>
+        <tr> 
+        <td>poly</td>
+        <td>Многоугольную область (<b>x1,y1,x2,y2,...,xn,yn</b>).</td> 
+        </tr>
+    </table>
+<div>
+<p>Создание активной области с использованием системы координат:</p>
+<img src="area.png">
+</div>
+
+<div>
+    <p>
+        Например, нажми на фигуру: <br>
+        <br>
+		<img src = "circle.jpg" usemap = "#figuri" alt = "Фигура" >
+		<map name = "figuri" >
+			<area shape = "circle" coords = "250,250,250" href = "http://wp.wiki-wiki.ru/wp/index.php/Круг" alt = "Круг." >
+        </map>
+    </p>
+</div>
+
+</body>
+</html>

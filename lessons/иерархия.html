@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    tr:first-child td:nth-child(1) {
+        color: rgb(50, 173, 173);
+    }
+
+    tr:last-child td:nth-child(1) {
+        color: rgb(50, 173, 66);
+    }
+
+    tr:nth-child(2) td:first-child {
+        color: rgb(173, 50, 111);
+    }
+
+    tr:first-child td:last-child {
+        color: rgb(221, 203, 98);
+    }
+
+    tr:nth-child(2) td:last-child {
+        color: rgb(173, 50, 50);
+    }
+
+    li:first-child p > a {
+        color: rgb(137, 202, 129);
+    }
+   
+    li:nth-child(2) span > em > a {
+        color: rgb(99, 202, 216); 
+    }
+
+    li:nth-child(3) a:first-of-type {
+        color: rgb(104, 35, 168); 
+    }
+ 
+    li:nth-child(4) a:first-of-type {
+        color: rgb(216, 141, 42); 
+    }
+
+    p:last-child span > em {
+        color: rgb(54, 202, 202); 
+    }
+
+    strong:first-child a:first-of-type {
+        color: rgb(114, 18, 63); 
+    }
+ 
+    i:last-child a:first-of-type {
+        color: rgb(143, 106, 177); 
+    }
+
+    li:first-child span > em > a {
+        color: rgb(184, 236, 243); 
+    }
+
+    li:nth-child(2) em > a {
+        color: rgb(116, 187, 34); 
+    }
+
+    li:last-child strong:first-of-type {
+        color: rgb(158, 19, 19); 
+    }
+
+
+</style>
+<body>
+    <div>
+        <div>
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td colspan="2">5</td>
+                </tr>
+            </table>
+        </div>
+        <ul>
+            <li>
+                <p>
+                    <a>а1</a>
+                </p>
+            </li>
+            <li>
+                <span>
+                    <em>
+                        <a>а2</a>
+                    </em>
+                </span>
+            </li>
+            <li>
+                <p>
+                    <a>а3</a>
+                </p>
+            </li>
+            <li>
+                <a>а4</a>
+            </li>
+        </ul>
+        <p>
+            <span>
+                <em>ем</em>
+            </span>
+        </p>
+    </div>
+    <p>
+        <strong>
+            <a>а4</a>
+        </strong>
+        <i>
+            <a>а5</a>
+        </i>
+    </p>
+    <ul>
+        <li>
+            <span>
+                <em>
+                    <a>а6</a>
+                </em>
+            </span>
+        </li>
+        <li>
+            <em>
+                <a>а7</a>
+            </em>
+        </li>
+        <li>
+            <strong>стронг</strong>
+        </li>
+    </ul>
+</body>
+</html>
