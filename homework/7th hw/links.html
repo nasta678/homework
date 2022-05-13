@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LINKS</title>
+    <link rel="stylesheet" href="reset.css" />
     <style>
+
         *{
             margin: 0px;
             padding: 0px;
         }
+        
         .clearfix::after{
             content: ".";
             visibility: hidden;
@@ -17,91 +20,86 @@
             height: 0;
             clear: both;
         }
-        .class_1{
+        .first{
             margin: 10px;
         }
-        div.class_1 li{
+        div.first li{
             float: left;
-            padding:0px 10px;
+            padding: 0px 10px;
             list-style-type: none;
         }
-        div.class_1 a{
+        div.first a{
             color: green;
             margin-bottom: 5px;
         }
-        div.class_1 img{
+        div.first img{
             float: right;
         }
 
-        .class_2{
+        .second{
             margin: 10px;
-            opacity: 0;
         }
-        div.class_2:hover{
-            opacity: 1;
-        }
-        div.class_2 a{
+        
+        div.second a{
             padding: 5px 8px;
             color: green;
             border-right: solid 3px red ;
         }
-        div.class_2 a:last-child{
+        div.second a:last-child{
             border-right: none;
         }
-        .class_3{
+        .third{
             margin: 10px;
-            opacity: 0;
-        }
-        div.class_3:hover{
             opacity: 1;
         }
-        div.class_3 div{
+       
+        div.third div{
             float: left;
             margin: 0px 10px;
         }
-        div.class_3 a{
+        div.third a{
             color: green;
         }
         div a:hover{
             color: red;
         }
-        div.class_3 div{
+        div.third div{
             background: url(line.png) right no-repeat;
         }
-        div.class_3 a{
+        div.third a{
             margin-right: 10px;
         }
-        div.class_3 div:last-child{
+        div.third div:last-child{
             background-image: none;
         }
 
     </style>
 </head>
 <body>
-    <div class="class_1 clearfix"> 
+    <div class="first clearfix"> 
         <ul>
-            <li> <a href="https://www.youtube.com/">первая ссылка</a> <img src="image/line.png" alt=""> </li>
-            <li> <a href="https://www.onliner.by/">вторая ссылка</a> <img src="image/line.png" alt=""></li>
-            <li> <a href="https://av.by/">третья ссылка</a> <img src="image/line.png" alt=""> </li>
-            <li> <a href="https://www.kufar.by/l"> четвертая ссылка</a><img src="image/line.png" alt=""></li>
-            <li> <a href="https://vk.com/">пятая ссылка</a>  </li>
+            <li> <a href="">первая ссылка</a> <img src="line.png" alt="линия"> </li>
+            <li> <a href="">вторая ссылка</a> <img src="line.png" alt="линия"></li>
+            <li> <a href="">третья ссылка</a> <img src="line.png" alt="линия"> </li>
+            <li> <a href=""> четвертая ссылка</a><img src="line.png" alt="линия"></li>
+            <li> <a href="">пятая ссылка</a>  </li>
         </ul>
     </div>
 
-    <div class="class_2">
-        <a href="https://www.youtube.com/">первая ссылка </a>
-        <a href="https://www.onliner.by/">вторая ссылка</a>
-        <a href="https://av.by/">третья ссылка</a>
-        <a href="https://www.kufar.by/l">четвертая ссылка</a>
-        <a href="https://vk.com/">пятая ссылка</a>
+    <div class="second">
+        <a href="">первая ссылка </a>
+        <a href="">вторая ссылка</a>
+        <a href="">третья ссылка</a>
+        <a href="">четвертая ссылка</a>
+        <a href="">пятая ссылка</a>
     </div>
         
-    <div class="class_3">
-        <div><a href="https://www.youtube.com/">первая ссылка </a> </div>
-        <div><a href="https://www.onliner.by/">вторая ссылка</a> </div>
-        <div><a href="https://av.by/">третья ссылка</a>  </div>
-        <div><a href="https://www.kufar.by/l">четвертая ссылка</a> </div>
-        <div><a href="https://vk.com/">пятая ссылка</a> </div>
+    <div class="third">
+        <div><a href="">первая ссылка </a> </div>
+        <div><a href="">вторая ссылка</a> </div>
+        <div><a href="">третья ссылка</a>  </div>
+        <div><a href="">четвертая ссылка</a> </div>
+        <div><a href="">пятая ссылка</a> </div>
     </div>
 
 </body>
