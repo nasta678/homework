@@ -5,13 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STARS</title>
+    <style>
+
+        body {
+            width:380px;
+        }
+        .second {
+            opacity: 0;
+            float: right;
+        }
+        .second:hover {
+            opacity: 1;
+        }
+        .first {
+            background: url(star0.png) repeat-x;
+            height:  156px;
+        }
+    </style>
 </head>
 <body>
-    <div><img src="star0.png" alt="">
-            <img src="star0.png" alt="">
-            <img src="star0.png" alt="">
-            <img src="star0.png" alt="">
-            <img src="star0.png" alt="">
+    <div class="first">
+        <div class="second"><img src="star1.png" alt="">
+            <div class="second"><img src="star1.png" alt="">
+                <div class="second"><img src="star1.png" alt="">
+                    <div class="second"><img src="star1.png" alt="">
+                        <div class="second"><img src="star1.png" alt="">
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
