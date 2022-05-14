@@ -4,32 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1200.css">
     <title>Адаптив</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0
+        }
+
+        .header {
+            font-size: 25px;
+            text-align: center;
+            height: 50px;
+            padding-top: 20px;
+            background: rgb(79, 62, 172);
+            color: rgb(148, 180, 209);
+        }
+
+        .clearfix::after {
+            content: "."; /* Генерируем пустой элемент */
+            clear: both; /* Отменяем обтекание*/
+            display: block; /* Блочный элемент */
+            visibility: hidden;
+            height: 0;
+            border: 1px solid black;
+
+        }
+
+        .left {
+        float: left;
+        }
+
+        ul {
+            margin: 0;
+            font-weight: bold;
+        }
+
+        ul li {
+            font-weight: 100;
+        }
+
+        .football {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        img {
+            float:left
+        }
+
+        .main {
+            background: url(ball.png) repeat-y right;
+           
+        }
+
+
+    </style>
 </head>
 <body>
+   <div class="header">ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</div>
+   <div class="main clearfix">
+       <div class="left">
+       <ul>Виды спорта:
+           <li><a href="">конькобежный спорт</a></li>
+           <li><a href="">биатлон</a></li>
+           <li><a href="">футбол</a></li>
+           <li><a href="">стрельба из лука</a></li>
+           <li><a href="">прыжки в длинну</a></li>
+           <li><a href="">прыжки в высоту</a></li>
+           <li><a href="">фигруное катание</a></li>
+           <li><a href="">синхронное плавание</a></li>
+           <li><a href="">шахматы</a></li>
+           <li><a href="">шашки</a></li>
+         </ul>
+        </div>
+        <div class="text">
+           <div class="football">ФУТБОЛ</div> 
+            <img src="footballpic.png">
+           <p>Футбол - командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими частями тела (кроме рук) большее количество раз, чем команда соперника.</p>
+           <p>Есть 17 официальных правил игры, каждое из которых содержит список оговорок и руководящих принципов. Эти првила предназначены для применения на всех уровнях футбола, хотя есть некоторые изменения для таких групп, как юниоры, взрослые, женщины и люди с ограниченными физическими возможностями. Законы очень часто формулировалисьв общих чертах, которые позволяют упростить их применения в зависимости от характера игры.</p>
+        </div>
+    </div>
+        <div class="header">ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</div>
+   </div>
 
-        <div class="hello">ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</div>
-        <div class="yellow">
-            <div class="sports">
-        Виды спорта: 
-            <ul>
-                <li><a href="https://ru.wikipedia.org/wiki/Алекситимия">Random link</a></li>
-                <li><a href="https://ru.wikipedia.org/wiki/Алекситимия">Random link</a></li>
-                <li><a href="https://ru.wikipedia.org/wiki/Алекситимия">Random link</a></li>
-                <li><a href="https://ru.wikipedia.org/wiki/Алекситимия">Random link</a></li>
-                <li><a href="https://ru.wikipedia.org/wiki/Алекситимия">Random link</a></li>
-                <li><a href="https://ru.wikipedia.org/wiki/Алекситимия">Random link</a></li>
-                <li><a href="https://ru.wikipedia.org/wiki/Алекситимия">Random link</a></li>
-                <li><a href="https://ru.wikipedia.org/wiki/Алекситимия">Random link</a></li>
-            </ul>
-            </div>
-            <div class="football clearfix"><strong>ФУТБОЛ</strong><br>
-                <img src="footballpic.png" alt="команда" class="footballpic">
-                <p class="text">Успех команды также зависит от скоростных и скоростно-силовых способностей футболистов, умения делать грамотные передачи, видеть партнера по команде и молниеносно принимать решения. Но футбол основан не только на командных взаимодействиях и тактике, но и на индивидуальной техники каждого игрока, умения нанести удар, обвести противника, обыгрывать соперника. Все эти качества требуют огромной физической и технической подготовленности и нарабатываются путем многолетних тренировок.<br>
-                </p>
-            </div>
-        </div>     
-        <div class="footer">ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</div>
+    
 </body>
 </html>
