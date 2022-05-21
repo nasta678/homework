@@ -1,7 +1,65 @@
-@media all and (max-width: 1100px) {
+
+@media all and (max-width: 1280px) {
+
+    .container2 {
+        width: 935px;
+    }
+
+    .view {
+        margin-left: 191px;
+    }
+
+    .sortby {
+        margin-left: 877px;
+    }
+
+    .maincontainer {
+        height: 1904px;
+    }
+}
+
+
+@media all and (max-width: 1140px) {
 
 .search {
     width:330px;
 }
 
+.view {
+    margin-left: 101px;
+}
+
+.sortby {
+    margin-left: 670px;
+}
+
+.bestitems {
+    padding-left: 0px;
+}
+
+
+}
+
+@media all and (max-width: 1070px) {
+
+    .bestitems {
+    width: 600px;
+    padding-left: 0px;
+    height: 587px;
+}
+    .bestitem {
+        border: none;
+
+}
+    .needhelp {
+        width: 438px;
+
+}
+    .chatnow {
+        margin-left: 146px
+
+}
+    .menubottom {
+        padding-left: 0px
+    }
 }
