@@ -7,21 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="button" value="1" oneclick="getNumber(1)">
-    <input type="button" value="2" oneclick="getNumber(2)">
-    <input type="button" value="3" oneclick="getNumber(3)">
-    <input type="button" value="+" oneclick="getOperation('+')"><br>
-    <input type="button" value="4" oneclick="getNumber(4)">
-    <input type="button" value="5" oneclick="getNumber(5)">
-    <input type="button" value="6" oneclick="getNumber(6)">
-    <input type="button" value="-" oneclick="getOperation('-')"><br>
-    <input type="button" value="7" oneclick="getNumber(7)">
-    <input type="button" value="8" oneclick="getNumber(8)">
-    <input type="button" value="9" oneclick="getNumber(9)">
-    <input type="button" value="/" oneclick="getOperation('/')"><br>
-    <input type="button" value="0" oneclick="getNumber(0)">
-    <input type="button" value="=" oneclick="getResult()">
-    <input type="button" value="*" oneclick="getOperation('*')">
+    <input type="button" value="1" onclick="getNumber(1)">
+    <input type="button" value="2" onclick="getNumber(2)">
+    <input type="button" value="3" onclick="getNumber(3)">
+    <input type="button" value="+" onclick="getOperation('+')"><br>
+    <input type="button" value="4" onclick="getNumber(4)">
+    <input type="button" value="5" onclick="getNumber(5)">
+    <input type="button" value="6" onclick="getNumber(6)">
+    <input type="button" value="-" onclick="getOperation('-')"><br>
+    <input type="button" value="7" onclick="getNumber(7)">
+    <input type="button" value="8" onclick="getNumber(8)">
+    <input type="button" value="9" onclick="getNumber(9)">
+    <input type="button" value="/" onclick="getOperation('/')"><br>
+    <input type="button" value="0" onclick="getNumber(0)">
+    <input type="button" value="=" onclick="getResult()">
+    <input type="button" value="*" onclick="getOperation('*')">
 
 
     <script>
@@ -29,7 +29,7 @@
        var num2 = null;
        var operation = null;
 
-       function getNumber (x) {
+       function getNumber(x) {
            if(num1===null){
                num1 = x
            } else {
@@ -37,20 +37,19 @@
            }
        }
 
-       function getOperation (x) {
+       function getOperation(x) {
            operation = x
         }
-       
 
-       function getResult (num1,num2,operation) {
+       function getResult() {
            switch (operation) {
-               case "+": console.log (num1+num2); break;
-               case "-": console.log (num1-num2); break;
-               case "/": console.log (num1/num2); break;
-               case "*": console.log (num1*num2); break;
+               case "+": console.log(num1+num2); break;
+               case "-": console.log(num1-num2); break;
+               case "/": console.log(num1/num2); break;
+               case "*": console.log(num1*num2); break;
            }
-           console.log (getResult)
-       }
+          
+        }
       
 
     </script>
