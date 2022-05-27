@@ -7,11 +7,55 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
+    <input type="button" value="1" oneclick="getNumber(1)">
+    <input type="button" value="2" oneclick="getNumber(2)">
+    <input type="button" value="3" oneclick="getNumber(3)">
+    <input type="button" value="+" oneclick="getOperation('+')"><br>
+    <input type="button" value="4" oneclick="getNumber(4)">
+    <input type="button" value="5" oneclick="getNumber(5)">
+    <input type="button" value="6" oneclick="getNumber(6)">
+    <input type="button" value="-" oneclick="getOperation('-')"><br>
+    <input type="button" value="7" oneclick="getNumber(7)">
+    <input type="button" value="8" oneclick="getNumber(8)">
+    <input type="button" value="9" oneclick="getNumber(9)">
+    <input type="button" value="/" oneclick="getOperation('/')"><br>
+    <input type="button" value="0" oneclick="getNumber(0)">
+    <input type="button" value="=" oneclick="getResult()">
+    <input type="button" value="*" oneclick="getOperation('*')">
 
-    var age = parseInt(prompt());
+
+    <script>
+       var num1 = null;
+       var num2 = null;
+       var operation = null;
+
+       function getNumber (x) {
+           if(num1===null){
+               num1 = x
+           } else {
+               num2 = x
+           }
+       }
+
+       function getOperation (x) {
+           operation = x
+        }
+       
+
+       function getResult (num1,num2,operation) {
+           switch (operation) {
+               case "+": console.log (num1+num2); break;
+               case "-": console.log (num1-num2); break;
+               case "/": console.log (num1/num2); break;
+               case "*": console.log (num1*num2); break;
+           }
+           console.log (getResult)
+       }
+      
 
     </script>
     
 </body>
 </html>
+
+
