@@ -7,18 +7,40 @@
     <title>Document</title>
 </head>
 <body>
-    <p>   var age = parseInt(prompt());
+    <p>   
+           <script>
 
-        if else switch 4 function
-       input 
-   
-       value 1
-       oneclick = get number 1
-       getnumber первое значение и второе значение (проверить чтобы не null)
-   
-       var num 1 = null
-   
-           num (функция) внутри надо проверить null или нет
+            var countrysH={};
+        
+            function addCountry(countryName,capitalName) {
+                countrysH[countryName]=capitalName;
+            }
+        
+            function deleteCountry(countryName) {
+                delete countrysH[countryName];
+            }
+        
+            function getCountryInfo(countryName) {
+                if ( countryName in countrysH )
+                    return 'страна: ' + countryName + ' столица: ' + countrysH[countryName] ;
+                else
+                    return 'нет информации о стране ' + countryName + '!' ;
+            }
+        
+            function listCountrys() {
+                var res="";
+                for ( var CN in countrysH )
+                    res+='\n'+getCountryInfo(CN);
+                return res;
+            }
+        
+            addCountry('Германия','Берлин');
+            addCountry('Венгрия','Будапешт');
+            addCountry('Франция','Париж');
+        
+            console.log( "список стран:" + listCountrys() );
+        
+        </script>
        </p>
     
 </body>
