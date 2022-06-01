@@ -96,11 +96,9 @@ ul.navigation li {
 
 .menucontainer {
     width:1296px;
-    margin-left: 75px;
+    margin-left: 100px;
     overflow: hidden;
     height: 80px;
-    margin: 0 auto;
-
 }
 
 .bg {
@@ -463,4 +461,5 @@ ul.menubottom li {
     float: left;
     color: white;
     margin-right: 65px;
+    margin-top: 10px;
 }

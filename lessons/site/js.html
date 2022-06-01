@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+    var speedStr=prompt('Введите скорость:');
+    var speed=parseFloat(speedStr);
+    var gender=prompt('Введите пол (М или Ж):');
+
+    if ( speed<5 ) {
+        if ( gender=='М' )
+            console.log('пошёл');
+        else
+            console.log('пошла');
+    }
+    else {
+        if ( gender=='М' )
+            console.log('побежал');
+        else
+            console.log('побежала');
+    }
+
+</script>
+    
+</body>
+</html>

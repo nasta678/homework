@@ -1,0 +1,251 @@
+
+@media all and (max-width: 1280px) {
+
+    .container2 {
+        width: 935px;
+    }
+
+    .view {
+        margin-left: 191px;
+    }
+
+    .sortby {
+        margin-left: 877px;
+    }
+
+    .maincontainer {
+        height: 1904px;
+    }
+}
+
+
+@media all and (max-width: 1140px) {
+
+.search {
+    width:330px;
+}
+
+.view {
+    margin-left: 101px;
+}
+
+.sortby {
+    margin-left: 670px;
+}
+
+.bestitems {
+    padding-left: 0px;
+}
+
+
+}
+
+@media all and (max-width: 1070px) {
+
+    .bestitems {
+    width: 600px;
+    padding-left: 0px;
+    height: 587px;
+}
+    .bestitem {
+        border: none;
+
+}
+    .needhelp {
+        width: 438px;
+
+}
+    .chatnow {
+        margin-left: 146px
+
+}
+    .menubottom {
+        padding-left: 0px
+    }
+} 
+
+@media all and (max-width: 940px) {
+    .container {
+        max-width: 313px;
+    
+    }
+
+    .header {
+        height: 169px;
+    }
+
+    .navigation { 
+        padding-top: 10px; 
+    }
+
+    .menucontainer {
+        width: 940px;
+        margin-left: 71px; 
+    }
+    .bg {
+        width: 940px;
+    }
+     .secondheader {
+        margin-left: 143px;
+    }
+    .underheader {
+        margin-left: 143px;
+    }
+    .button {
+        margin-left: 143px;
+    }
+    .snowboards {
+        width: 227px
+    }
+
+    ul.menubottom li {
+        margin-right: 48px;
+    }
+
+    .container2 {
+        width: 888px
+    }
+} 
+    @media all and (max-width: 900px) {
+        body {
+            font-size: 14px;
+        }
+        .name {
+            font-size: 16px;
+        }
+        .searchtext {
+            font-size:13px;
+        }
+        .navigation {
+            font-size: 14px;
+        }
+        .view {
+            margin-left: 52px;
+        }
+        .sortby {
+            margin-left: 560px;
+        }
+        .maincontainerheader {
+            padding-left: 50px;  
+        }
+        .filter {
+            margin-left: 50px; 
+        }
+        .linetwo {
+            width: 190px;
+        }
+    }     
+    @media all and (max-width: 860px) {
+        .menucontainer {
+            margin-left: 10px;
+            height: 200px;
+        }
+        .menu {
+            padding-top: 72px;
+        }
+        ul.menu li {
+            float: none;
+            margin-left: 385px
+        }
+        .firstitem {
+            margin-left: 385px;
+        }
+    }
+    @media all and (max-width: 800px) {
+        .secondheader {
+            margin-left: 50px;
+        }
+        .underheader {
+            margin-left: 50px;
+        }
+        .button {
+            margin-left: 50px;
+        }
+        ul.menu li {
+            margin-left: 300px
+        }
+        .firstitem {
+            margin-left: 300px;
+        }
+        .filter {
+            margin-left: 15px;
+        }
+        .maincontainerheader {
+            padding-left: 15px;
+        }
+        .snowboards {
+            width: 190px;
+        }
+        .container2 {
+            width: 780px;
+        }
+    }  
+
+    @media all and (max-width: 740px) {
+        .maincontainerheader {
+            padding-top: 10px;
+            width:740px;
+            text-align: center;
+        }
+        .background {
+            width: 740px;
+        }
+        .button {
+            margin-top: 217px;
+        }
+
+     .filter {
+         float:none;
+         margin-left: 310px;
+        }
+
+        .cattegories {
+            float:none;
+            margin-left: 190px;
+        }
+        .Matchesfound {
+            float:none;
+        }
+        .view {
+            float:none;
+            margin-left: 1px;
+        }
+        .sortby {
+            margin-left: 1px;
+        }
+        .container2 {
+            padding: 45px;
+        }
+        .maincontainer {
+            height: 3047px;
+        }
+        .travelwithus {
+            margin-top: 0px;
+        }
+        .needhelp {
+            float: none;
+        }
+        .needhelp {
+            margin-left: 140px;
+        }
+        ul.menubottom li {
+            margin-right: 22px;
+        }
+ }
+
+ @media all and (max-width: 500px) {
+    ul.menu li {
+        margin-left: 230px;
+    }
+    .firstitem {
+        margin-left: 230px;
+    }
+    .background {
+        width: 500px
+    }
+
+
+
+}
+
+
