@@ -2,7 +2,7 @@ body {
 	padding: 0;
 	margin: 0;
     font-family: 'Comfortaa', cursive;
-	color: black;
+	color: rgb(205, 188, 188);
 	font-size: 18px;
     font-weight: 300;
     }
@@ -24,13 +24,40 @@ header {
     padding-top: 43px;
 }
 
-ul.navigation li {
-    float: left;
-    list-style-type: none;
-    color: antiquewhite;
-    }
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+}
 
 .logo {
     margin: 0 auto;
+}
+
+.auth {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.auth p {
+    margin-right: 15px;
 }
 
