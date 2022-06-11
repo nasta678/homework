@@ -1,8 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Comfortaa', cursive;
-    font-family: 'Nunito', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: black;
 	font-size: 16px;
     }
@@ -11,33 +10,43 @@ body {
     box-sizing: border-box;
     }
 
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+/* Header */
+
 .header {
-    background-color: #d2ccf49a; 
+    background-color: #ffffffc6; 
     width: 100%; 
+    height: 66px;
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-}   
-
-.container {
-    max-width: 1260px;
-    padding: 0;
     margin: 0 auto;
-}
+    z-index: 1000;
+   
+}   
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
     font-size: 20px;
+    padding: 15px;
 }
+
+/*Nav*/
 
 .navigation {
     display: flex;
     justify-content: space-evenly;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul.navigation li {
@@ -46,36 +55,137 @@ ul.navigation li {
 }   
 
 ul.navigation li a {
-    color: rgb(19, 19, 94); 
-    background: linear-gradient(transparent 95%, rgba(19,19,94, 0.511)5%);
-    transition: .2s linear;
+    color: rgb(0, 0, 0); 
+    background: linear-gradient(transparent 95%, rgb(68, 0, 128) 5%);
 }
 
 ul.navigation li a:hover {
-    color: rgb(255, 255, 255);
-    transform: scale(1);
+    color:rgb(68, 0, 128)
+    }
+
+
+   /*Intro*/
+
+   .intro {
+    display: flex;
+    flex-direction: column; /*каждый новый элемент с новой строки*/
+    justify-content: center;
+    height: 750px;
+    background: url("image/Bg.png") center no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+
    }
 
-div.container div span {
-    color: rgb(19, 19, 94); 
-    background: transparent;
-    transition: .2s linear;
-}
-
-div.container div span:hover {
-    color: rgb(255, 255, 255);
-    transform: scale(1);
+   h1 {
+    font-size: 66px;
+    font-weight: 300;
+    line-height: 77.34px;
+    text-align: center;
    }
 
-   .main {
-    background: linear-gradient(transparent 85%, rgba(19,19,94, 0.511)15%);
-    width: 100%; 
-    position: absolute;
-    left: 0;
-    top: 0;
+   .container_title {
+    max-width: 590px;
     width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
    }
 
-   h2 {
-       font-size: 38px;
+   .purple {
+    color: rgba(68, 0, 128, 0.596);
+    }
+
+   .purple:hover {
+    color: rgb(68, 0, 128);
+    }
+ 
+   .button {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 14px 40px;
+    border-radius: 10px;
+    transition: 0.3s;
    }
+
+   .button:hover {
+    background-color: rgb(68, 0, 128)
+    }
+
+   .explore {
+    background-color: blueviolet;
+   }
+
+   div.container_title p {
+    margin-bottom: 60px;
+   }
+
+    /*Info*/
+
+    .tittle_two {
+        text-align: center;
+        font-weight: 600;
+        font-size: 25px;
+        margin: 45px;
+        font-family: 'Poppins', sans-serif;
+    }    
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 85px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .info_item {
+        width: 22%;
+        text-align: center;
+        padding: 15px;
+        margin: 25px 50px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 20px 0px rgba(98, 87, 87, 0.591);
+    }
+
+    .info_item:hover {
+        box-shadow: 5px 5px 20px 0px rgba(68, 0, 128, 0.424);
+    }
+
+    .info_icon {
+        margin-bottom: 20px;
+    }
+
+    .info_title {
+       font-weight: 500;
+    }
+    
+    .info_text {
+        font-weight: 400;
+        color: #15151599;
+    }
+
+    .info_charter {
+        width: 21%;
+        text-align: center;
+        padding: 15px;
+        margin: 25px 13px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 20px 0px rgba(98, 87, 87, 0.591);
+    }
+
+    .info_pur {
+        display: flex;
+        margin: 0px 145px;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .info_purpose {
+        width: 50%;
+        text-align: center;
+        padding: 55px;    
+        font-weight: 400;
+        color: #15151599;       
+    }
