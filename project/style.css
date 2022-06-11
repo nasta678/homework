@@ -47,7 +47,6 @@ ul.navigation li {
 
 ul.navigation li a {
     color: rgb(19, 19, 94); 
-    background: transparent;
     background: linear-gradient(transparent 95%, rgba(19,19,94, 0.511)5%);
     transition: .2s linear;
 }
@@ -55,4 +54,28 @@ ul.navigation li a {
 ul.navigation li a:hover {
     color: rgb(255, 255, 255);
     transform: scale(1);
+   }
+
+div.container div span {
+    color: rgb(19, 19, 94); 
+    background: transparent;
+    transition: .2s linear;
+}
+
+div.container div span:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1);
+   }
+
+   .main {
+    background: linear-gradient(transparent 85%, rgba(19,19,94, 0.511)15%);
+    width: 100%; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+   }
+
+   h2 {
+       font-size: 38px;
    }
