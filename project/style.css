@@ -5,6 +5,7 @@ body {
 	color: rgb(205, 188, 188);
 	font-size: 18px;
     font-weight: 300;
+    height: 100%;
     }
 
 * {
@@ -15,14 +16,10 @@ a {
     text-decoration: none;
     }
 
-header {
-    background: url("images/bgc.png");
-    height: 500px;
-    }
 
-.header-top {
-    padding-top: 43px;
-}
+header {
+    background-color: #333333DE;
+    }
 
 .container {
     width: 100%;
@@ -42,7 +39,7 @@ header {
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .logo {
@@ -54,10 +51,27 @@ header {
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .auth p {
     margin-right: 15px;
 }
+.mainpage {
+    background: url("images/bgc.png") no-repeat center center;
+    display: flex;
+    background-size: cover!important;
+    padding-bottom: 25px;
+}
 
+.heading1 {
+    text-align: center;
+}
+
+.heading1 p {
+    margin-bottom: 50px;
+    display: block;
+    font-size: 36px;
+    line-height: 49px;
+    color: #fff;
+}
