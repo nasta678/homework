@@ -1,0 +1,36 @@
+body {
+	padding: 0;
+	margin: 0;
+    font-family: 'Comfortaa', cursive;
+	color: black;
+	font-size: 18px;
+    font-weight: 300;
+    }
+
+* {
+    box-sizing: border-box;
+    }
+
+a {
+    text-decoration: none;
+    }
+
+header {
+    background: url("images/bgc.png");
+    height: 500px;
+    }
+
+.header-top {
+    padding-top: 43px;
+}
+
+ul.navigation li {
+    float: left;
+    list-style-type: none;
+    color: antiquewhite;
+    }
+
+.logo {
+    margin: 0 auto;
+}
+
