@@ -189,7 +189,10 @@ ul.navigation li a:hover {
         font-family: 'Poppins', sans-serif;
         border-radius: 10px;
         box-shadow: 3px 3px 20px 0px rgba(98, 87, 87, 0.591);
-           }
+        transition: transform 0.5s 
+        }
+
+    .info_pur:hover { transform: scale(1.2); }   
 
     .info_pur2 {
         display: flex;
@@ -248,4 +251,33 @@ ul.navigation li a:hover {
         border-radius: 5px;
         box-shadow: 3px 3px 20px 0px rgba(98, 87, 87, 0.591);
         height: 40px;
+        text-align: center;
+    } 
+        .submitpic {
+            width: 40px;
+            height: 40px;
+            margin-left: 10px
+         }
+
+    /*Form*/
+    
+    .input {
+        border: #656293 1px solid;
+        border-radius: 5px;
+        height: 40px;
+        margin: 10px;
+        text-align: center;
     }
+
+    .submitbutton {
+        background-color: #656293;
+        border: #656293 1px solid;
+        border-radius: 5px;
+        height: 30px;
+        width: 100px;
+        margin: 15px;
+        color: #fff;
+        text-align: center;
+    }
+
+  
