@@ -63,10 +63,11 @@ ul.navigation li {
 ul.navigation li a {
     color: rgb(0, 0, 0); 
     background: linear-gradient(transparent 95%, rgb(68, 0, 128) 5%);
-}
+   }
 
 ul.navigation li a:hover {
-    color:rgb(68, 0, 128)
+    color:rgb(68, 0, 128);
+    background: transparent;
     }
 
 
@@ -118,7 +119,8 @@ ul.navigation li a:hover {
    }
 
    .button:hover {
-    background-color: rgb(68, 0, 128)
+    background-color: rgb(68, 0, 128);
+    transform: scale(1.3); 
     }
 
    .explore {
@@ -153,6 +155,11 @@ ul.navigation li a:hover {
         margin: 25px 50px;
         border-radius: 10px;
         box-shadow: 3px 3px 20px 0px rgba(98, 87, 87, 0.591);
+        transition: transform 0.5s 
+    }
+
+    .info_item:hover {
+        transform: scale(1.1);   
     }
 
     .info_item:hover {
@@ -189,11 +196,8 @@ ul.navigation li a:hover {
         font-family: 'Poppins', sans-serif;
         border-radius: 10px;
         box-shadow: 3px 3px 20px 0px rgba(98, 87, 87, 0.591);
-        transition: transform 0.5s 
         }
-
-    .info_pur:hover { transform: scale(1.2); }   
-
+  
     .info_pur2 {
         display: flex;
         align-items: center;
