@@ -1,0 +1,16 @@
+@media all and (max-width: 1070px) {
+
+    .navigation {
+        font-size: 14px;
+    }
+    body {
+        font-size: 12px;
+    }
+
+    .tittle_two {
+        font-size: 14px; 
+    }
+
+    .info_item {
+        width: 19%;
+    }
