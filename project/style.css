@@ -125,7 +125,7 @@ ul.navigation li a:hover {
     }
 
    .explore {
-    background-color: blueviolet;
+    background-color:  #656293;
    }
 
    div.container_title p {
@@ -296,4 +296,69 @@ ul.navigation li a:hover {
       }
 
 
-  
+  /*Membership*/
+
+   .membership_item li {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+    margin: 5px;
+   }
+
+  .membership_item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.433);
+   }
+
+   .price {
+    margin: 10px;
+   }
+
+   .choose {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 14px 40px;
+    border-radius: 10px;
+    transition: 0.3s;
+    background-color:  #656293;
+   }
+
+   .choose:hover {
+    background-color: rgb(68, 0, 128);
+    transform: scale(1.1); 
+    }
+
+    .item_membership {
+        width: 22%;
+        text-align: center;
+        padding: 15px;
+        margin: 25px 50px;
+        border-radius: 40px;
+        box-shadow: 3px 3px 20px 0px rgba(70, 70, 70, 0.591);
+        transition: transform 0.5s;
+        background: #ffffffde; 
+    }
+    
+    .item_membership:hover {
+        box-shadow: 5px 5px 20px 0px rgba(105, 105, 105, 0.904);
+        background: #f1ecf7de; 
+        transform: scale(1.1);  
+    }
+
+    .business {
+        background:  #656293;
+        color:#ffffff  
+    }
+
+    .business:hover {
+        background:  #656293;
+        color:#ffffff  
+    }
+
+    .business_button {
+        background-color: #ffffff;
+        color:  #656293;
+    }
