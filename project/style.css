@@ -62,11 +62,11 @@ ul.navigation li {
 
 ul.navigation li a {
     color: rgb(0, 0, 0); 
-    background: linear-gradient(transparent 95%, rgb(68, 0, 128) 5%);
+    background: linear-gradient(transparent 95%, rgb(101,98,147) 5%);
    }
 
 ul.navigation li a:hover {
-    color:rgb(68, 0, 128);
+    color:rgb(101,98,147);
     background: transparent;
     }
 
@@ -343,7 +343,7 @@ ul.navigation li a:hover {
     }
     
     .item_membership:hover {
-        box-shadow: 5px 5px 20px 0px rgba(105, 105, 105, 0.904);
+        box-shadow: 5px 5px 20px 0px rgba(104, 104, 104, 0.904);
         background: #f1ecf7de; 
         transform: scale(1.1);  
     }
@@ -361,4 +361,8 @@ ul.navigation li a:hover {
     .business_button {
         background-color: #ffffff;
         color:  #656293;
+    }
+
+    .animation_membership {
+        animation: bouncing 3.8s cubic-bezier(.1,.25,.1,1)  infinite alternate both;
     }
