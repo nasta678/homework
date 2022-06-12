@@ -96,6 +96,7 @@ ul.navigation li a:hover {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+   
 
    }
 
@@ -216,6 +217,10 @@ ul.navigation li a:hover {
         color: #15151599;       
     }
 
+    .animation {
+        animation: bouncing 0.8s cubic-bezier(.1,.25,.1,1)  infinite alternate both;
+    }
+
     /*Footer*/
 
     .footer {
@@ -283,5 +288,12 @@ ul.navigation li a:hover {
         color: #fff;
         text-align: center;
     }
+
+
+    @keyframes bouncing{
+        0%  { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5);}
+        100%{ bottom: 50px; box-shadow: 0 50px 50px #656293;}
+      }
+
 
   
