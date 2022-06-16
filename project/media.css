@@ -14,3 +14,36 @@
     .info_item {
         width: 19%;
     }
+
+}
+
+@media all and (max-width: 920px) {
+
+    .info_item {
+        width: 33%;
+    }
+
+    .info_purpose {
+        padding: 20px;
+    }
+
+    .info_pur2 {
+        padding: 20px;
+    }
+}
+
+@media all and (max-width: 840px) {
+    .info_charter {
+        width: 37%;
+        
+    }
+
+    .info {
+        justify-content: space-between;
+    }
+}
+
+@media all and (max-width: 777px) {
+    убрать марджини в инфо и поставить почти 50 процентов
+    }
+}

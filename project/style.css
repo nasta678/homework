@@ -61,7 +61,7 @@ ul.navigation li {
 }   
 
 ul.navigation li a {
-    color: rgb(0, 0, 0); 
+    color: rgba(0, 0, 0, 0.669); 
     background: linear-gradient(transparent 95%, rgb(101,98,147) 5%);
    }
 
@@ -69,6 +69,10 @@ ul.navigation li a:hover {
     color:rgb(101,98,147);
     background: transparent;
     }
+
+    .horizontal-gradient {
+        background: linear-gradient(to right, #f9e7fea2, #dafcfc9e);
+      }
 
 
    /*Intro*/
@@ -164,8 +168,8 @@ ul.navigation li a:hover {
     }
 
     .info_item:hover {
-        box-shadow: 5px 5px 20px 0px rgba(68, 0, 128, 0.424);
-        background: #eee7f78a; 
+        box-shadow: 3px 3px 20px 0px rgba(98, 87, 87, 0.591);
+        background: linear-gradient(to right, #f9e7fec3, #dafcfcc7);
     }
 
     .info_icon {
@@ -188,6 +192,13 @@ ul.navigation li a:hover {
         margin: 25px 13px;
         border-radius: 10px;
         box-shadow: 3px 3px 20px 0px rgba(98, 87, 87, 0.591);
+        transition: transform 0.5s 
+    }
+
+    .info_charter:hover {
+        transform: scale(1.1);   
+        box-shadow: 5px 5px 20px 0px rgba(98, 87, 87, 0.591);
+        background: linear-gradient(to right, #f9e7fec3, #dafcfcc7);
     }
 
     .info_pur {
@@ -217,9 +228,19 @@ ul.navigation li a:hover {
         color: #15151599;       
     }
 
-    .animation {
-        animation: bouncing 0.8s cubic-bezier(.1,.25,.1,1)  infinite alternate both;
+    .consultation {
+       max-width: 400px;  
     }
+    
+
+    .animation {
+        animation: bouncing 0.9s cubic-bezier(.1,.25,.1,1)  infinite alternate both;
+    }
+
+    @keyframes bouncing{
+        0%  { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5);}
+        100%{ bottom: 30px; box-shadow: 0 50px 50px #656293b7;}
+      }
 
     /*Footer*/
 
@@ -289,13 +310,6 @@ ul.navigation li a:hover {
         text-align: center;
     }
 
-
-    @keyframes bouncing{
-        0%  { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5);}
-        100%{ bottom: 50px; box-shadow: 0 50px 50px #656293;}
-      }
-
-
   /*Membership*/
 
    .membership_item li {
@@ -308,6 +322,7 @@ ul.navigation li a:hover {
 
   .membership_item {
     border-bottom: 1px solid rgba(0, 0, 0, 0.433);
+    
    }
 
    .price {
