@@ -459,5 +459,39 @@ ul.navigation li a:hover {
         max-width: 1260px;
         margin: 0 auto;
         position: relative;
-        padding-top: 80px;
+        padding-top: 20px;
+    }
+
+    .jets {
+        display: flex;
+        align-items: center;
+    }
+
+    .jet_item {
+        width: 29%;
+        text-align: center;
+        padding: 15px;
+        margin: 25px 13px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 20px 0px rgb(98 87 87 / 59%);
+        justify-content: space-around;
+    }
+
+    .jet_name {
+        font-weight: 700;
+    }
+
+    .jet_about {
+        display: flex;
+    }
+
+    .jet_about_card {
+        white-space: nowrap;
+      
+    }
+
+    .passengers {
+        background: url(image/pass.png) no-repeat;
+        background-position: 0;
+        padding-left: 15px;
     }
