@@ -20,7 +20,44 @@ html {
     width: 100%;
     max-width: 1260px;
     margin: 0 auto;
+    position: relative;
 }
+
+.container_wrapper {
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video {
+    object-fit: cover;
+
+    /* Center the video */
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Take full width */
+    width: 100%;
+}
+
+.content {
+    left: 0px;
+    position: absolute;
+    top: 0px;                   
+    height: 100%;
+    width: 100%;                       
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 
 /* Header */
 
@@ -84,7 +121,7 @@ ul.navigation li a:hover {
     flex-direction: column; /*каждый новый элемент с новой строки*/
     justify-content: center;
     height: 750px;
-    background: url("image/Bg.png") center no-repeat;
+    background: url("image/Bg1.png") center no-repeat;
     background-size: cover;
     padding-top: 20px;
 
@@ -135,6 +172,9 @@ ul.navigation li a:hover {
    div.container_title p {
     margin-bottom: 60px;
    }
+
+
+
 
     /*Info*/
 
