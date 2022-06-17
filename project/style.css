@@ -465,33 +465,73 @@ ul.navigation li a:hover {
     .jets {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .jet_item {
-        width: 29%;
+        width: 23%;
         text-align: center;
         padding: 15px;
-        margin: 25px 13px;
+        margin: 25px 10px;
         border-radius: 10px;
         box-shadow: 3px 3px 20px 0px rgb(98 87 87 / 59%);
         justify-content: space-around;
     }
 
+    .jet_item:hover {
+        box-shadow: 3px 3px 20px 0px #656293;;
+    }
+
+    .jet_pic {
+        transition: all 0.5s ease;
+    }
+
+    .jet_pic:hover  {
+        transform: scale(1.03, 1.03);
+    }
+
     .jet_name {
         font-weight: 700;
+        margin: 5px;
     }
 
     .jet_about {
         display: flex;
+        justify-content: space-between;
+        margin: 15px;
     }
 
     .jet_about_card {
         white-space: nowrap;
-      
     }
 
     .passengers {
         background: url(image/pass.png) no-repeat;
         background-position: 0;
-        padding-left: 15px;
+        padding-left: 10px;
     }
+
+    .distance {
+        background: url(image/dist.png) no-repeat;
+        background-position: 0;
+        padding-left: 19px;
+    }
+
+    .speed {
+        background: url(image/speed.png) no-repeat;
+        background-position: 0;
+        padding-left: 19px;
+    }
+
+   .jet_price {
+        margin: 15px;
+   }
+
+   .discount {
+        color: rgb(65, 58, 58);
+        font-size: 14px;
+   }
+
+   .jet_rent a {
+        color: #fff;;
+   }
