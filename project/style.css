@@ -4,6 +4,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: black;
 	font-size: 16px;
+    overflow-x: hidden;
     }
 
 * {
@@ -249,15 +250,35 @@ ul.navigation li a:hover {
     
 
     .animation {
-        animation: bouncing 0.9s cubic-bezier(.1,.25,.1,1)  infinite alternate both;
+        animation-name: bouncing;
+        animation-duration:1s;
+        transition-timing-function: cubic-bezier(.1,.25,.1,1);
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        
     }
 
     @keyframes bouncing{
         0%  { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5);}
-        100%{ bottom: 30px; box-shadow: 0 50px 50px #656293b7;}
+        100%{ bottom: 30px; box-shadow: 0 50px 50px #65629353;}
       }
 
-
+      .slidein {
+        animation-duration: 8s;
+        animation-name: slidein;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+       }
+      
+      @keyframes slidein {
+        from {
+          margin-left:100%;
+        }
+      
+        to {
+          margin-left:5%;
+        }
+      }
    
 
     /*Form*/
@@ -326,6 +347,10 @@ ul.navigation li a:hover {
          width: 40px;
          height: 40px;
          margin-left: 10px
+    }
+
+    .phone {
+        color: white;
     }
     
     /*Membership*/
@@ -559,7 +584,12 @@ ul.navigation li a:hover {
     .img_card {
         width: 600px;
         margin-right: 50px;
+        transition: 0.5s ease;
     } 
+
+    .img_card:hover {
+        transform: scale(1.1);
+    }
 
 
     .jet_tittle {
