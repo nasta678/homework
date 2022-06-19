@@ -1,7 +1,7 @@
 @media all and (max-width: 1070px) {
 
     .info_item {
-        margin: 25px 5px;
+        margin: 25px 15px;
     }
 } 
 
@@ -93,8 +93,30 @@
 }
 
 /*Membership*/
+
 @media all and (max-width: 1130px) {
     .info {
-        margin:0;
+        margin:50;
     }
+}
+
+/*Jet*/
+
+@media all and (max-width: 1170px) {
+
+    .jet_card {
+        flex-direction: column;
+    }
+
+    .jet_tittle {
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width: 900px) {
+
+    .container_card {
+        padding: 0px 10px;
+    }
+
 }
