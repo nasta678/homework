@@ -1,49 +1,100 @@
 @media all and (max-width: 1070px) {
 
-    .navigation {
-        font-size: 14px;
+    .info_item {
+        margin: 25px 5px;
     }
-    body {
-        font-size: 12px;
-    }
+} 
 
-    .tittle_two {
-        font-size: 14px; 
-    }
+@media all and (max-width: 980px) {
 
     .info_item {
-        width: 19%;
+        width: 100%;
     }
 
+    .info_pur {
+        margin: 0px 83px;
+    } 
+
+    .info_pur2 {
+        margin: 25px 83px;
+    }
+
+    .info_item:hover {
+        transform: scale(1);   
+    }
+
+    .info_charter:hover {
+        transform: scale(1);   
+    }
+}   
+
+@media all and (max-width: 800px) {
+
+    .info { 
+        margin: 0px 12px;
+    }
 }
 
-@media all and (max-width: 920px) {
+@media all and (max-width: 650px) {
 
-    .info_item {
-        width: 33%;
+    .info_pur {
+        margin: 0px 40px;
+    } 
+
+    .info_pur2 {
+        margin: 25px 40px;
+    }
+
+    .info_charter {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 555px) {
+    .info_pur {
+        flex-direction: column;
+    } 
+
+    .info_pur2 {
+        flex-direction: column;
     }
 
     .info_purpose {
-        padding: 20px;
-    }
-
-    .info_pur2 {
-        padding: 20px;
+        padding: 15px;
+        width: 90%;
     }
 }
 
-@media all and (max-width: 840px) {
-    .info_charter {
-        width: 37%;
-        
+    /*Jets*/
+
+@media all and (max-width: 1280px) {
+
+    .jet_item {
+        width: 31%;
+    }
+}
+
+@media all and (max-width: 930px) {
+    
+    .jet_item {
+        width: 45%;
+    }
+}
+
+@media all and (max-width: 670px) {
+    
+    .jet_item {
+        width: 100%;
     }
 
+    .jet_about {
+        justify-content: space-evenly;
+    }
+}
+
+/*Membership*/
+@media all and (max-width: 1130px) {
     .info {
-        justify-content: space-between;
-    }
-}
-
-@media all and (max-width: 777px) {
-    убрать марджини в инфо и поставить почти 50 процентов
+        margin:0;
     }
 }
