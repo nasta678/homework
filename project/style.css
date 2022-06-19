@@ -433,105 +433,126 @@ ul.navigation li a:hover {
     }
     
     .overlay a:hover, .overlay a:focus {
-        color: #f1f1f1;
+    color: #f1f1f1;
     }
     
     .overlay .closebtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 60px;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
     }
     
     @media screen and (max-height: 450px) {
-      .overlay a {font-size: 20px}
-      .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
       }
     }
 
     /*Jets*/
 
     .container_jets {
-        width: 100%;
-        max-width: 1260px;
-        margin: 0 auto;
-        position: relative;
-        padding-top: 20px;
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 20px;
     }
 
     .jets {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     }
 
     .jet_item {
-        width: 23%;
-        text-align: center;
-        padding: 15px;
-        margin: 25px 10px;
-        border-radius: 10px;
-        box-shadow: 3px 3px 20px 0px rgb(98 87 87 / 59%);
-        justify-content: space-around;
+    width: 23%;
+    text-align: center;
+    padding: 15px;
+    margin: 25px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px 0px rgb(98 87 87 / 59%);
+    justify-content: space-around;
     }
 
     .jet_item:hover {
-        box-shadow: 3px 3px 20px 0px #656293;;
+    box-shadow: 3px 3px 20px 0px #656293;
+    filter: brightness(80%)
     }
 
     .jet_pic {
-        transition: all 0.5s ease;
+    transition: all 0.5s ease;
     }
 
-    .jet_pic:hover  {
-        transform: scale(1.03, 1.03);
+    .jet_pic:hover {
+    filter: brightness(40%)
     }
 
     .jet_name {
-        font-weight: 700;
-        margin: 5px;
+    font-weight: 700;
+    margin: 5px;
     }
 
     .jet_about {
-        display: flex;
-        justify-content: space-between;
-        margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
     }
 
     .jet_about_card {
-        white-space: nowrap;
+    white-space: nowrap;
     }
 
     .passengers {
-        background: url(image/pass.png) no-repeat;
-        background-position: 0;
-        padding-left: 10px;
+    background: url(image/pass.png) no-repeat;
+    background-position: 0;
+    padding-left: 10px;
     }
 
     .distance {
-        background: url(image/dist.png) no-repeat;
-        background-position: 0;
-        padding-left: 19px;
+    background: url(image/dist.png) no-repeat;
+    background-position: 0;
+    padding-left: 19px;
     }
 
     .speed {
-        background: url(image/speed.png) no-repeat;
-        background-position: 0;
-        padding-left: 19px;
+    background: url(image/speed.png) no-repeat;
+    background-position: 0;
+    padding-left: 19px;
     }
 
    .jet_price {
-        margin: 15px;
+    margin: 15px;
    }
 
    .discount {
-        color: rgb(65, 58, 58);
-        font-size: 14px;
+    color: rgb(65, 58, 58);
+    font-size: 14px;
    }
 
    .jet_rent a {
-        color: #fff;;
+    color: #fff;;
    }
+
+
+   /*Jet*/
+   
+    .container_card {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    position: relative;
+   
+    }
+
+    .jet_card {
+        padding: 100px;
+    }
+
+    .img_card {
+        width: 600px;
+    }
+    
