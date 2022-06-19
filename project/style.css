@@ -564,8 +564,9 @@ ul.navigation li a:hover {
 
     .jet_tittle {
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 26px;
       margin-bottom: 30px;
+      color: #656293;
     }
     
     .jet_charact {
@@ -610,7 +611,7 @@ ul.navigation li a:hover {
     .slider {
         position: relative;
         overflow: hidden;
-        max-width: 900px;
+        max-width: 700px;
         height: auto;
     }
 
@@ -643,16 +644,17 @@ ul.navigation li a:hover {
     }
 
     .slider-nav .slider-nav-items {
-        width: 60px;
+        width: 40px;
         height: 15px;
-        border: 2px solid rgb(243, 219, 219);
+        border: 3px solid #656293;
+        border-radius: 15px;
         margin: 8px;
         cursor: pointer;
         transition: all 0.5s ease;
     }
 
     .slider-nav .slider-nav-items:hover {
-        background-color: rgba(255, 255, 255, 0.736);
+        background-color: #65629373;
     }
 
     #s1:checked ~ .s1 {
