@@ -712,37 +712,3 @@ ul.navigation li a:hover {
     }
 
 
-
-    /*Video*/
-
-
-   .intro_video {
-    overflow: hidden;
-    position: relative;
-    }
-
-    .intro_video:after {
-        content: "";
-        display: block;
-        width:100%;
-        
-        background-color: #656293;
-        position: absolute;
-        top:0;
-        left:0;
-        z-index: 2;
-    }
-
-    .video {
-        position: relative;
-        padding-bottom: 56.25%;
-    }
-    
-
-    .video__media {
-        width: 70%;
-        height: auto;
-        position: absolute;
-        top: 0;
-        left: 30%;
-    }
