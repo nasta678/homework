@@ -22,6 +22,7 @@ html {
     max-width: 1260px;
     margin: 0 auto;
     position: relative;
+    
 }
 
 
@@ -132,17 +133,7 @@ ul.navigation li a:hover {
     .closebtn {
         font-size: 20px; 
     }
-    
-    @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    font-size: 50px;
-    top: 35px;
-    right: 35px;
-      }
-
-
-    }
+   
 
 
    /*Intro*/
@@ -318,15 +309,15 @@ ul.navigation li a:hover {
    
 
       .slidein {
-        animation-duration: 8s;
+        animation-duration: 7s;
         animation-name: slidein;
-        animation-iteration-count: 1;
+        animation-iteration-count: 10;
         animation-direction: normal;
        }
       
       @keyframes slidein {
         from {
-          margin-left:100%;
+          margin-left:50%;
         }
       
         to {
