@@ -100,7 +100,7 @@
 
 @media all and (max-width: 1130px) {
     .info {
-        margin:50;
+        margin:50px;
     }
 }
 
@@ -121,6 +121,21 @@
 
     .container_card {
         padding: 0px 10px;
+    }
+
+}
+
+/* Membership*/
+
+@media all and (max-width: 1054px) {
+
+    .item_membership {
+        width: 44%;
+    }
+
+    .info {
+        margin-top: 560px;
+        margin-bottom: 1060px;
     }
 
 }
