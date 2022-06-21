@@ -411,8 +411,7 @@ ul.navigation li a:hover {
 
     .intro_membership {
     
-    background: url("image/Bg.png") center no-repeat;
-    background-size: cover;
+    background-color: #65629304;
     padding-top: 20px;
     height: 100%;
   
@@ -589,7 +588,7 @@ ul.navigation li a:hover {
     }
 
     .jet_card {
-        padding: 80px;
+        padding: 80px 0px;
         display: flex;
         justify-content: flex-start;
     }
