@@ -410,9 +410,7 @@ ul.navigation li a:hover {
     /*Membership*/
 
     .intro_membership {
-    
-    background: url("image/Bg.png") center no-repeat;
-    background-size: cover;
+   
     padding-top: 20px;
     height: 100vh;
   
