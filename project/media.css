@@ -26,6 +26,20 @@
     .info_charter:hover {
         transform: scale(1);   
     }
+
+    .nav_button {
+        visibility: visible;
+    }
+
+    .overlay {
+        visibility: visible;
+    }
+
+    .navigation {
+        font-size: 2px;
+        visibility: hidden;
+    }
+
 }   
 
 @media all and (max-width: 800px) {
@@ -35,7 +49,7 @@
     }
 
     .overlay a {
-    font-size: 15px;
+    font-size: 25px;
     }
 }
 
@@ -52,6 +66,10 @@
     .info_charter {
         width: 100%;
     }
+
+    .overlay a {
+        font-size: 20px;
+        }
 }
 
 @media all and (max-width: 555px) {

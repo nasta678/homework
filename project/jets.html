@@ -15,19 +15,31 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
+    <div id="myNav" class="overlay">    
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#215;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="jets.html">Jets</a>
+            <a href="membership.html">Membership</a>
+        </div>
+  </div>
+
+
     <header class="header">
         <div class="container">
             <div class="header-container">
                 <div class="header-logo">
                 <a href="index.html"><img src="image/logo.png" alt="logo"></a>
                 </div>
-                <div class="nav"> 
-                  <ul class="navigation">
+                <div class="nav">
+                    <ul class="navigation">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html#booking">Booking</a></li>
                     <li><a href="jets.html">Jets</a></li>
                     <li><a href="membership.html">Membership</a></li>
+                    <li><a><div class= "nav_button" onclick="openNav()">&#8801;</div></a></li>
                  </ul>
+                 
                 </div>
             </div>
         </div>
@@ -209,6 +221,6 @@
 
       
 
-
+<script src="script.js"></script>
 </body>
 </html>
