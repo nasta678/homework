@@ -142,7 +142,9 @@
     .item_membership {
         width: 44%;
     }
-
+    .intro_membership {
+        height: 100%;
+    }
 }
 
 @media all and (max-width: 810px) {
